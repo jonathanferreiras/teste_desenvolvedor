@@ -1,0 +1,15 @@
+{
+  "name": "teste_desenvolvedor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonathanferreiras/teste_desenvolvedor.git",
+  "author": "Jonathan Ferreira <jonathanferreiras@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "readdirp": "^3.3.0",
+    "util": "^0.12.1"
+  }
+}
