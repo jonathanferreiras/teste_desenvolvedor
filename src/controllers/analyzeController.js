@@ -31,7 +31,7 @@ module.exports = {
   async getFiles() {
     let settings = {
       entryType: type,
-      fileFilter: [format]
+      fileFilter: ['*.' + format]
     };
 
     let files = [];
