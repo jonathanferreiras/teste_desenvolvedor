@@ -1,13 +1,10 @@
-const { analyze } = require('./controllers/analyzeController')
+const { analyze } = require("./controllers/analyzeController");
+const { writeReport } = require("./controllers/reportController");
+const { time } = require("./config/analyze");
 
-
-
-setInterval( async () => {
-   const aqui = await analyze()
-   
-   // console.log(allFiles)
-    //var diference = await checkDifference(files);
-    //console.log(diference)    
-
-    
-}, 5000);
+setInterval(async () => {
+  let data = await analyze();
+  if (data) {
+    await writeReport(data);
+  }
+}, time);

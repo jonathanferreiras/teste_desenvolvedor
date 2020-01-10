@@ -6,6 +6,7 @@ module.exports = {
     separator: 'ç',
     numberVendor: '001',
     numberClient: '002',
-    numberSale: '003'
+    numberSale: '003',
+    time: 3000
 
 }

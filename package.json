@@ -9,7 +9,7 @@
     "start": "node src/app.js"
   },
   "dependencies": {
-    "readdirp": "^3.3.0",
-    "util": "^0.12.1"
+    "readdirp": "^3.3.0"
+    
   }
 }
